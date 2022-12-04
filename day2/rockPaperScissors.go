@@ -8,7 +8,7 @@ import (
 )
 
 func part1() {
-	file, err := os.ReadFile("../data/input.txt")
+	file, err := os.ReadFile("input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -43,7 +43,7 @@ func part1() {
 }
 
 func part2() {
-	file, err := os.ReadFile("../data/input.txt")
+	file, err := os.ReadFile("input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
